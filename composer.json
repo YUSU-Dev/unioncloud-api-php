@@ -1,0 +1,20 @@
+{
+    "name": "yusu/unioncloud-api-php",
+    "description": "A wrapper to allow integration with the APIs of the UnionCloud platform operated by NUS.",
+    "authors": [
+        {
+            "name": "Liam McDaid",
+            "email": "liam@liammcdaid.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "fabpot/goutte": "*",
+        "laravel/framework": ">=5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "UnionCloud\\": "src/UnionCloud/"
+        }
+    }
+}
