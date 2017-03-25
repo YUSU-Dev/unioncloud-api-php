@@ -10,7 +10,7 @@
     "require": {
         "php": ">=5.5.0",
         "fabpot/goutte": "*",
-        "laravel/framework": ">=5.*"
+        "laravel/framework": "5.*"
     },
     "autoload": {
         "psr-4": {
