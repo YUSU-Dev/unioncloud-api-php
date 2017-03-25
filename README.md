@@ -73,7 +73,12 @@ $groups = $api->groups();
 
 ## Change Log
 ### [0.1.0] 25th March 2017
+<<<<<<< HEAD
+- Corrected: version of a required dependency in composer.json
+=======
+>>>>>>> origin/develop
 
+### [0.1.0] 25th March 2017
 - New Project created 
 - Added: Goutte to handle making the api calls
 - Added: All current apis
