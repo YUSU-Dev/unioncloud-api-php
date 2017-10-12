@@ -72,11 +72,13 @@ $groups = $api->groups();
 ```
 
 ## Change Log
+
+### [0.2.0] 12th October 2017
+- Fix issue ca-cert in macOS
+- Reduce dependency on php to 5
+
 ### [0.1.0] 25th March 2017
-<<<<<<< HEAD
 - Corrected: version of a required dependency in composer.json
-=======
->>>>>>> origin/develop
 
 ### [0.1.0] 25th March 2017
 - New Project created 
