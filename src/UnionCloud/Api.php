@@ -31,7 +31,7 @@ class Api {
         
         // verify ssl certs incase server misconfigured
         $guzzleClient = new GuzzleClient(array(
-            "verify" => dirname(__FILE__, 3) . DIRECTORY_SEPARATOR . "unioncloud.pem"
+            "verify" => dirname(dirname(dirname(__FILE__))) . DIRECTORY_SEPARATOR . "unioncloud.pem"
         ));
         $this->client->setClient($guzzleClient);
         
