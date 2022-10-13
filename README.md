@@ -1,6 +1,8 @@
 # UnionCloud API Wrapper (PHP)
 By [Liam McDaid, University of York Students' Union (YUSU)](http://www.yusu.org)
 
+**Please Note this is no longer maintained by YUSU**
+
 A wrapper to allow integration with the APIs of the [UnionCloud](http://www.unioncloud.co.uk) platform operated by NUS.
 
 **WARNING:** The apis are at Union level and should only be used by the Union. Access to the apis should not be given to any student groups under any circumstances.
